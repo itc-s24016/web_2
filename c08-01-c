@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+.required {
+	padding: 0.5em;
+	font-size: 0.75em;
+	color: #ff0000;
+}
+		</style>
+	</head>
+	<body>
+		<form action="./8-1-sub.html" method="post">
+			<p><label for="name-field">お客様<span class="required">*必須</span></label><br>
+			<input type="text" name="name" id="name-field" required></p>
+			<input type="submit" name="sub" value="送信">
+		</form>
+	</body>
+<html>
