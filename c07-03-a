@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+	<head>
+		<meta charset="utf-8">
+		<style>
+		.price tr:nth-child(odd){
+		background: #e3ecf5;
+		}
+		table {
+			border-collapse: collapse;
+		}
+		th, td {
+			border: 1px solid #8fbac8;
+			padding: 8px;
+		}
+		</style>
+	</head>
+	<body>
+		<table class="price">
+			<caption>基本料金（１時間）</caption>
+			<tr>
+				<th id="row1">ルーム名</th>
+				<th id="row2">平日</th>
+				<th id="row3">土日祝</th>
+				<th id="row4">個人練習</th>
+			</tr>
+			<tr>
+				<th headers="row1">8帖</th>
+				<th headers="row2">&yen;1,080</th>
+				<th headers="row3">&yen;2,160</th>
+				<th headers="row4">&yen;540</th>
+			</tr>
+			<tr>
+				<th headers="row1">12帖</th>
+				<th headers="row2">&yen;1,620</th>
+				<th headers="row3">&yen;3,240</th>
+				<th headers="row4">&yen;810</th>
+			</tr>
+			<tr>
+				<th headers="row1">16帖</th>
+				<th headers="row2">&yen;2,160</th>
+				<th headers="row3">&yen;4,320</th>
+				<th headers="row4">&yen;1,080</th>
+			</tr>
+			<tr>
+				<th headers="row1">20帖</th>
+				<th headers="row2">&yen;2,700</th>
+				<th headers="row3">&yen;5,832</th>
+				<th headers="row4">&yen;1,350</th>
+			</tr>
+			<tr>
+				<th headers="row1">30帖</th>
+				<th headers="row2">&yen;4,050</th>
+				<th headers="row3">&yen;8,100</th>
+				<th headers="row4">&yen;2,025</th>
+			</tr>
+	</body>
+</html>
