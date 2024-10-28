@@ -34,8 +34,16 @@ input[type="text"]:focus {
 		<form action="./8-1-sub.html" method="get">
 			<p><label for="name-field">お名前<span class="required">*必須</span></label><br>
 			<input type="text" name="name" id="name-field" required></p>
+
 			<p><label for="pw=field">パスワード</label><br>
 			<input type="password" name="pw" id="pw-field"></p>
+
+			<p><label for="email-field">メールアドレス</label><br>
+			<input type="email" name="email" id="email-field"></p>
+
+			<p><label for="tel-field">お電話番号</label><br>
+			<input type="tel" name="tel" id="tel-field"></p>
+			
 			<input type="submit" name="sub" value="送信">
 		</form>
 	</body>
