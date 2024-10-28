@@ -41,7 +41,7 @@ input[type="text"]:focus {
 			<p><label for="email-field">メールアドレス</label><br>
 			<input type="email" name="email" id="email-field"></p>
 
-			<p><label for="tel-field">お電話番号</label><br>
+			<p><label for="tel-field">電話番号</label><br>
 			<input type="tel" name="tel" id="tel-field"></p>
 			
 			<input type="submit" name="sub" value="送信">
