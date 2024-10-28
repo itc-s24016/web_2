@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+body {
+	margin: 0;
+}
+form {
+	padding: 16px;
+}
+input {
+	box-sizing: border-box;
+}
+input[type="text"]{
+	margin: 0.5em 0;
+	border: 1px solid #ccc;
+	padding: 0.75em;
+	width: 100%;
+	font-size: 16px;
+	color: #999;
+	border-radius: 6px;
+}
+input[type="text"]:focus {
+	background-color: #e2ecf6;
+}
+.required {
+	padding: 0.5em;
+	font-size: 0.75em;
+	color: #ff0000;
+}
+		</style>
+	</head>
+	<body>
+		<form action="./8-1-sub.html" method="get">
+			<p><label for="name-field">お名前<span class="required">*必須</span></label><br>
+			<input type="text" name="name" id="name-field" required></p>
+
+			<p><label for="pw=field">パスワード</label><br>
+			<input type="password" name="pw" id="pw-field"></p>
+
+			<p><label for="email-field">メールアドレス</label><br>
+			<input type="email" name="email" id="email-field"></p>
+
+			<p><label for="tel-field">お電話番号</label><br>
+			<input type="tel" name="tel" id="tel-field"></p>
+
+			<p><label for="number-field">目標回数</label><br>
+			<input type="number" name="comment_id" value="1136"></p>
+			<input type="hidden" name="comment_id" value="1136"></p>
+			
+			<input type="submit" name="sub" value="送信">
+		</form>
+	</body>
+<html>
