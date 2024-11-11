@@ -48,41 +48,41 @@ li {
 	</head>
 	<body>
 		<form action="./8-1-sub.html" method="get">
-			<p><label for="name-field">お名前<span class="required">*必須</span></label><br>
+			<p><label for="name-field">【お名前】<span class="required">*必須</span></label><br>
 			<input type="text" name="name" id="name-field" required></p>
 
-			<p><label for="pw=field">パスワード</label><br>
+			<p><label for="pw=field">【パスワード】</label><br>
 			<input type="password" name="pw" id="pw-field"></p>
 
-			<p><label for="email-field">メールアドレス</label><br>
+			<p><label for="email-field">【メールアドレス】</label><br>
 			<input type="email" name="email" id="email-field"></p>
 
-			<p><label for="tel-field">お電話番号</label><br>
+			<p><label for="tel-field">【お電話番号】</label><br>
 			<input type="tel" name="tel" id="tel-field"></p>
 
-			<p><label for="number-field">目標回数</label><br>
+			<p><label for="number-field">【目標回数】</label><br>
 			<input type="number" name="comment_id" value="1136"></p>
 			<input type="hidden" name="comment_id" value="777"></p>
 			
 			<div class="comment">
-			<p><label for="comment">お問い合わせの内容</label><br>
+			<p><label for="comment">【お問い合わせの内容】</label><br>
 			<textarea name="comment" id="comment"></textarea></p>
 			</div>
 
-			<p class="label-p">時刻の設定</p>
-			<!-- ラジオボタン -->
+			<p class="label-p">【時刻の設定】</p>
+			<!-- ラジオボタン 必ず選択しないと行けない　必須項目とか-->
 			<ul class="input-group">
 				<li><input type="radio" name="duration" id="r1" value="1" checked><label for="r1">いますぐ出発</label></li>
-				<li><input type="radio" name="duration" id="r2" value="2" checked><label for="r2">出発時刻</label></li>
-				<li><input type="radio" name="duration" id="r3" value="3" checked><label for="r3">到着時刻</label></li>
+				<li><input type="radio" name="duration" id="r2" value="2"><label for="r2">出発時刻</label></li>
+				<li><input type="radio" name="duration" id="r3" value="3"><label for="r3">到着時刻</label></li>
 			</ul>
 
-			<p class="label-p">オプション</p>
-			<!--  チェックボックス -->
+			<p class="label-p">【オプション】</p>
+			<!--  チェックボックス 選ばないが可能　checked追記でチェックを付与-->
 			<ul class="inpyt-group">
 				<li><input type="checkbox" name="option" id="c1" value="1" checked><label for="c1">特急を優先</label></li>
-				<li><input type="checkbox" name="option" id="c2" value="2" checked><label for="c2">新幹線を優先</label></li>
-				<li><input type="checkbox" name="option" id="c3" value="3" checked><label for="c3">バスがあれば利用</label></li>
+				<li><input type="checkbox" name="option" id="c2" value="2"><label for="c2">新幹線を優先</label></li>
+				<li><input type="checkbox" name="option" id="c3" value="3"><label for="c3">バスがあれば利用</label></li>
 			</ul>
 			
 			<input type="submit" name="sub" value="送信">
