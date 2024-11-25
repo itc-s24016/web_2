@@ -5,6 +5,9 @@ body          {
 }
 .container    {
 	padding: 0 16px 0 16px;
+	/*横幅の上限を1000pxにし、中央に配置*/
+	margin: 0 auto 0 auto;
+	max-width: 1000px;
 }
 /*
  * 各パートにパディング、背景、テキスト色などを指定する
