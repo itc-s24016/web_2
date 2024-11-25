@@ -3,6 +3,9 @@
 body {
 	margin: 0;
 }
+.container    {
+	padding: 0 16px 0 16px;
+}
 .header-inner {
 	background: #bad7f5;
 }
