@@ -3,8 +3,6 @@
 body {
 	margin: 0;
 }
-
-/*<div class="container">の小要素に指定する*/
 .header-inner {
 	background: #bad7f5;
 }
