@@ -12,29 +12,21 @@
 			<div class="container">
 				<div class="header-inner"><!-- ヘッダー -->
 					<div class="logo">Header</div>
-				</div><!-- /.header-inner -->
-			</div><!-- container -->
-		</header>
+				</div></div></header>
 		<nav>
 			<div class="contaicer">
 				<div class="nav-inner">ホーム　会社案内　製品案内　サポート　お問い合わせ</div>
-			</div>
-		</nav>
+			</div></nav>
 		<section>
 			<div class="container">
 				<main>
 					<div class="main-inner"><!-- コンテンツ -->
 						<p class="main-title">Main</p>
-					</div><!-- /.main-inner -->
-				</main>
-			</div><!-- /.container -->
-		</section>
+					</div></main></div></section>
 		<footer>
 			<div class="container">
 				<div class="footer-inner"><!-- フッター -->
 					<p class="copyright">footer ©20XX HTML/CSS Technic</p>
-				</div><!-- /.footer-inner -->
-			</div><!-- /.container -->
-		</footer>
+				</div></div></footer>
 	</body>
 </html>
