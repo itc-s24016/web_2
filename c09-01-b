@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>準備を済ませたテンプレート | c09-01-a</title>
-		<link rel="stylesheet" href="HTML_normalize.css">
+		<link rel="stylesheet" href="Download_normalize.css">
 		<link rel="stylesheet" href="style.css">
 	</head>
 	<body>
